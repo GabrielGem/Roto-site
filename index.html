@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotogravura</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dados.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Rotogravura</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="" name="txtpes" id="txtpes">
+            <button onclick="pesquisa()">Pesquisar</button>
+        </section>
+        <section id="res-pesq" class="item-resultado">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Gabriel</p>
+    </footer>
+    <video autoplay muted loop id="myVideo" src="video/color_explosion.mp4">
+        Seu navegador não suporta este formato de vídeo.
+    </video>
+</body>
+</html>
